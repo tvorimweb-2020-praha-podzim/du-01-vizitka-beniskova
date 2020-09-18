@@ -23,6 +23,7 @@ h1 {
     font-weight: bold;
     margin: 0;
 
+
 }
 
 h2 {
@@ -57,10 +58,12 @@ a {
 }
 section {
     padding: 50px 10%;
+    overflow: auto;
 }
 .hlavicka {
-    padding: 200px 30px;
+    padding: 400px 30px;
     background-image: url(Praha.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
